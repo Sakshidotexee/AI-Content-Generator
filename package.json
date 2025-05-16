@@ -1,0 +1,45 @@
+{
+  "name": "ai-content-generator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.15.0",
+    "@google/genai": "^0.9.0",
+    "@google/generative-ai": "^0.24.0",
+    "@neondatabase/serverless": "^1.0.0",
+    "@radix-ui/react-slot": "^1.2.0",
+    "@toast-ui/react-editor": "^3.2.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.42.0",
+    "lucide-react": "^0.488.0",
+    "mime": "^4.0.7",
+    "moment": "^2.30.1",
+    "next": "15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.2.0",
+    "tw-animate-css": "^1.2.5",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.17.30",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "drizzle-kit": "^0.31.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5"
+  }
+}
